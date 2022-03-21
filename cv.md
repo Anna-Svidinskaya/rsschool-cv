@@ -25,7 +25,22 @@ I think that my strong suit is purposefulness, responsibility, love of developme
 + Bash scripting;
 
 # Code example:
+```
+const fakeBin = (x) => {
 
+  let i = 0 ;
+  let result = '';
+  while (i < x.length) {
+    if (x[i] < 5) {
+      result = `${result}${0}`
+  } else {
+    result = `${result}${1}`
+  }
+    i = i + 1;
+  }
+    return result;
+};
+```
 
 # Education:
 **Belarusian National Technical University**
